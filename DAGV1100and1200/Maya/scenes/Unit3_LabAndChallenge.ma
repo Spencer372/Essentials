@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Unit3_LabAndChallenge.ma
-//Last modified: Tue, Sep 23, 2025 12:52:32 PM
+//Last modified: Tue, Sep 23, 2025 12:53:54 PM
 //Codeset: 1252
 file -rdi 1 -ns "Unit4_Table" -rfn "Unit4_TableRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/larso/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Unit4_Table.ma";
@@ -34,12 +34,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "F2B831D5-4E0B-8499-1271-E98A4EFFCE1B";
+fileInfo "UUID" "411F54CA-4A4B-63FF-B82B-75927BADDC2C";
 createNode transform -s -n "persp";
 	rename -uid "139B50E3-40A2-A526-9478-50ABB5F6383D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 33.203353964105787 18.549688723075541 -36.438773958072446 ;
-	setAttr ".r" -type "double3" 162.17489379114977 41.064549659799169 -179.99999999999997 ;
+	setAttr ".t" -type "double3" 30.511887184689488 25.869161473735602 -34.784195467322554 ;
+	setAttr ".r" -type "double3" 153.17489379114951 39.864549659799117 -179.99999999999994 ;
 	setAttr ".rp" -type "double3" -3.3306690738754696e-16 2.2204460492503131e-16 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 6.159855352301414e-15 3.8264783095004745e-15 1.5966458339019222e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
