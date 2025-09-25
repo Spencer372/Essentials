@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: Unit3_LabAndChallenge.ma
-//Last modified: Thu, Sep 25, 2025 11:55:34 AM
+//Name: Unit4_LabAndChallenge.ma
+//Last modified: Thu, Sep 25, 2025 11:55:55 AM
 //Codeset: 1252
 file -rdi 1 -ns "Unit4_Table" -rfn "Unit4_TableRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/larso/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Unit4_Table.ma";
@@ -38,7 +38,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "85BDDC93-4321-E2AC-00C4-608C0B1CD231";
+fileInfo "UUID" "6C861544-4FAD-D0EA-BCFA-DC8D243CDC66";
 createNode transform -s -n "persp";
 	rename -uid "139B50E3-40A2-A526-9478-50ABB5F6383D";
 	setAttr ".v" no;
@@ -931,4 +931,4 @@ connectAttr "groupId54.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId55.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId105.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId106.msg" ":initialShadingGroup.gn" -na;
-// End of Unit3_LabAndChallenge.ma
+// End of Unit4_LabAndChallenge.ma
