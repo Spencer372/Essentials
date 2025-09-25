@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Unit4_LabAndChallenge.ma
-//Last modified: Thu, Sep 25, 2025 11:55:55 AM
+//Last modified: Thu, Sep 25, 2025 11:59:40 AM
 //Codeset: 1252
 file -rdi 1 -ns "Unit4_Table" -rfn "Unit4_TableRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/larso/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Unit4_Table.ma";
@@ -38,19 +38,19 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "6C861544-4FAD-D0EA-BCFA-DC8D243CDC66";
+fileInfo "UUID" "27981F16-44E0-665D-43C3-3DBAF49D7ED6";
 createNode transform -s -n "persp";
 	rename -uid "139B50E3-40A2-A526-9478-50ABB5F6383D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 38.276197613231709 18.105379748365287 -39.46851391154626 ;
-	setAttr ".r" -type "double3" 166.97489379115069 42.664549659789728 -179.99999999999949 ;
+	setAttr ".t" -type "double3" 29.218885802945625 10.54364794175363 -33.705755002811728 ;
+	setAttr ".r" -type "double3" 170.5748937911483 41.06454965978962 -179.9999999999994 ;
 	setAttr ".rp" -type "double3" -3.3306690738754696e-16 2.2204460492503131e-16 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 6.159855352301414e-15 3.8264783095004745e-15 1.5966458339019222e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "79B5746B-4942-C641-7177-A094A089B4CA";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 56.370517523274323;
+	setAttr ".coi" 45.471467776674729;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -817,12 +817,15 @@ createNode reference -n "Unit4_PottedSnakePlantRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Unit4_PottedSnakePlantRN"
 		"Unit4_PottedSnakePlantRN" 0
-		"Unit4_PottedSnakePlantRN" 3
+		"Unit4_PottedSnakePlantRN" 4
 		2 "|Unit4_PottedSnakePlant:Pot" "translate" " -type \"double3\" -10 0 -1.56370155078289397"
 		
 		2 "|Unit4_PottedSnakePlant:Pot" "rotate" " -type \"double3\" 0 -149.51938167582326855 0"
 		
-		2 "|Unit4_PottedSnakePlant:Pot" "scale" " -type \"double3\" 0.40949050385958535 0.40949050385958535 0.40949050385958535";
+		2 "|Unit4_PottedSnakePlant:Pot" "scale" " -type \"double3\" 0.40949050385958535 0.40949050385958535 0.40949050385958535"
+		
+		2 "|Unit4_PottedSnakePlant:Pot|Unit4_PottedSnakePlant:Dirt|Unit4_PottedSnakePlant:Leaf" 
+		"translate" " -type \"double3\" 0 0 0";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 select -ne :time1;
