@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Unit4_BeanieBabyBunny.ma
-//Last modified: Fri, Sep 26, 2025 09:39:38 AM
+//Last modified: Fri, Sep 26, 2025 09:36:11 AM
 //Codeset: 1252
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "D519CEE7-4E65-3A4B-C4B1-95A32C14E896";
+fileInfo "UUID" "39177CA4-4DB1-71AB-14EA-628053D99887";
 createNode transform -s -n "persp";
 	rename -uid "1EC38C62-4AAD-858E-6297-BF8A97437F73";
 	setAttr ".v" no;
